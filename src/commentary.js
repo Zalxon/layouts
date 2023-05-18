@@ -7,13 +7,13 @@ import {
   Button,
   LinkGroup,
   formatDate,
-} from '@carbonplan/components'
-import { Left } from '@carbonplan/icons'
+} from '@zalxon/components'
+import { Left } from '@zalxon/icons'
 import { PrintedFootnotes } from './printed-footnotes'
 import { ReferencesProvider } from './references'
 import ReadMore from './read-more'
 
-const prefix = 'https://images.carbonplan.org'
+const prefix = 'https://images.zalxon.com'
 
 const getSx = (color) => {
   return {
@@ -47,8 +47,8 @@ const Commentary = ({
     <Layout
       card={`${prefix}/social/commentary/${meta.card}.png`}
       description={meta.summary}
-      title={meta.title + ' – CarbonPlan'}
-      url={meta.path ? `https://carbonplan.org${meta.path}` : null}
+      title={meta.title + ' – Zalxon'}
+      url={meta.path ? `https://zalxon.com${meta.path}` : null}
       links={'local'}
       metadata={'scroll'}
       nav={'research'}

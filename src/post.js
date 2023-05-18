@@ -7,11 +7,11 @@ import {
   Layout,
   AvatarGroup,
   formatDate,
-} from '@carbonplan/components'
-import { Left } from '@carbonplan/icons'
+} from '@zalxon/components'
+import { Left } from '@zalxon/icons'
 import ReadMore from './read-more'
 
-const prefix = 'https://images.carbonplan.org'
+const prefix = 'https://images.zalxon.com'
 
 const Authors = ({ authors }) => {
   return (

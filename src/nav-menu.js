@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box } from 'theme-ui'
-import { Link, useScrollbarClass } from '@carbonplan/components'
+import { Link, useScrollbarClass } from '@zalxon/components'
 
 const NavMenu = ({
   active,

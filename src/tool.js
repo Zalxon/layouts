@@ -1,10 +1,10 @@
 import React from 'react'
 import { Box } from 'theme-ui'
-import { Layout, Guide, Row, Column, Button } from '@carbonplan/components'
-import { Left } from '@carbonplan/icons'
+import { Layout, Guide, Row, Column, Button } from '@zalxon/components'
+import { Left } from '@zalxon/icons'
 import QuickLook from './quick-look'
 
-const prefix = 'https://images.carbonplan.org'
+const prefix = 'https://images.zalxon.com'
 
 const Tool = ({
   back = '/research',
@@ -22,8 +22,8 @@ const Tool = ({
       card={`${prefix}/social/${meta.card}.png`}
       metadata={false}
       description={meta.quickLook + '.'}
-      title={meta.title + ' – CarbonPlan'}
-      url={meta.path ? `https://carbonplan.org${meta.path}` : null}
+      title={meta.title + ' – Zalxon'}
+      url={meta.path ? `https://zalxon.com${meta.path}` : null}
       links={'local'}
       nav={'research'}
       {...props}

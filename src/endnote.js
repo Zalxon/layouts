@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Divider } from 'theme-ui'
-import { Row, Column } from '@carbonplan/components'
+import { Row, Column } from '@zalxon/components'
 
 const Endnote = ({ label, children, divider }) => {
   return (

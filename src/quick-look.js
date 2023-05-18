@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box } from 'theme-ui'
-import { Column } from '@carbonplan/components'
+import { Column } from '@zalxon/components'
 
 const QuickLook = ({ start, color, children, tool = false }) => {
   return (

@@ -1,18 +1,18 @@
 import React from 'react'
 import { Box, Divider } from 'theme-ui'
-import { Layout, Row, Column, Button, formatDate } from '@carbonplan/components'
-import { Left } from '@carbonplan/icons'
+import { Layout, Row, Column, Button, formatDate } from '@zalxon/components'
+import { Left } from '@zalxon/icons'
 import ReadMore from './read-more'
 
-const prefix = 'https://images.carbonplan.org'
+const prefix = 'https://images.zalxon.com'
 
 const Supplement = ({ back = '/research', children, meta, ...props }) => {
   return (
     <Layout
       card={`${prefix}/social/${meta.card}.png`}
-      url={meta.path ? `https://carbonplan.org${meta.path}` : null}
+      url={meta.path ? `https://zalxon.com${meta.path}` : null}
       description={meta.quickLook + '.'}
-      title={meta.title + ' – CarbonPlan'}
+      title={meta.title + ' – Zalxon'}
       links={'local'}
       metadata={'scroll'}
       nav={'research'}

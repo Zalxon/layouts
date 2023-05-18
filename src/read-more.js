@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box } from 'theme-ui'
-import { Row, Column, Callout } from '@carbonplan/components'
+import { Row, Column, Callout } from '@zalxon/components'
 
 const ReadMore = ({ children, target = 'research' }) => {
   return (

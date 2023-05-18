@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import { Layout, Row, Column, FadeIn } from '@carbonplan/components'
+import { Layout, Row, Column, FadeIn } from '@zalxon/components'
 import NavMenu from './nav-menu'
 
 const NavSection = ({

@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react'
 import { Box, Flex } from 'theme-ui'
-import { Button, Row, Column } from '@carbonplan/components'
-import { ArrowThin } from '@carbonplan/icons'
+import { Button, Row, Column } from '@zalxon/components'
+import { ArrowThin } from '@zalxon/icons'
 
 import SidebarAttachment from './sidebar-attachment'
 

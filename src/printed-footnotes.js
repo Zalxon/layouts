@@ -1,4 +1,4 @@
-import { Group } from '@carbonplan/components'
+import { Group } from '@zalxon/components'
 import React from 'react'
 import { Box } from 'theme-ui'
 
