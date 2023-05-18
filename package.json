@@ -1,0 +1,49 @@
+{
+  "name": "@zalxon/layouts",
+  "version": "4.0.0",
+  "description": "page layout components for reusable content",
+  "type": "module",
+  "main": "dst/index.cjs",
+  "module": "dst/index.module.js",
+  "source": "src/index.js",
+  "scripts": {
+    "build": "rimraf dst && microbundle build --jsx React.createElement --jsxFragment React.Fragment -f modern,es,cjs",
+    "watch": "rimraf dst && microbundle watch --jsx React.createElement --jsxFragment React.Fragment -f modern,es,cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zalxon/layouts.git"
+  },
+  "author": "halildogan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zalxon/layouts/issues"
+  },
+  "files": [
+    "dst"
+  ],
+  "prettier": "@zalxon/prettier",
+  "homepage": "https://github.com/zalxon/layouts#readme",
+  "exports": {
+    ".": {
+      "require": "./dst/index.cjs",
+      "default": "./dst/index.modern.js"
+    }
+  },
+  "dependencies": {
+    "@zalxon/icons": "^1.0.0"
+  },
+  "peerDependencies": {
+    "@zalxon/components": "^1.0.0",
+    "react": ">=18",
+    "react-dom": ">=18",
+    "theme-ui": ">=0.15.0"
+  },
+  "devDependencies": {
+    "@zalxon/prettier": "^1.0.1",
+    "microbundle": "^0.14.0",
+    "npm-run-all": "^4.0.0",
+    "prettier": "2.5.0",
+    "rimraf": "2.6.3"
+  }
+}
